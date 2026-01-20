@@ -3,7 +3,7 @@ import { Modal, StyleSheet, Text, Pressable, View } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
 const App = () => {
-  const [modalVisible, setModalVisible] = useState(false);
+  const [modalVisible, setModalVisible] = useState<boolean>(false);
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.centeredView}>
